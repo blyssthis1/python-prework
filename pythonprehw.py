@@ -1,5 +1,7 @@
 
-#Python Q1:
+#Python Q1: Question 1
+#Write a function to print "hello_USERNAME!" USERNAME is the input of the function. 
+# The first line of the code has been defined as below. def hello_name(user_name):
 
 def hello_name(user_name):
     print("hello_" + user_name.upper() +"!")
@@ -15,6 +17,7 @@ hello_name("USERNAME")
 
 
 #Python Q2:
+#Write a python function, first_odds that prints the odd numbers from 1-100 and returns nothing def first_odds():
 def first_odds():
     for value in range(1,100,2):
         print(value)
@@ -22,6 +25,8 @@ first_odds()
 
 
 #Python Q3:
+#Please write a Python function, max_num_in_list to return the max number of a given list.
+#The first line of the code has been defined as below. def max_num_in_list(a_list):
 def max_num_in_list(a_list):
     #for value in range(0,len(a_list)):
     #a_list = [0,5,10,55,78]
@@ -30,8 +35,9 @@ def max_num_in_list(a_list):
 
 max_num_in_list([0,5,10,55,78])
 
-'''
+
 #Python Q4:
+'''
 def is_leap_year(a_year):
     print("Erm")
     if a_year%4 == 0:
